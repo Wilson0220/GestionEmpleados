@@ -1,0 +1,6 @@
+@ApiEmpleadosPorDeptartamentos_HostAddress = http://localhost:5236
+
+GET {{ApiEmpleadosPorDeptartamentos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

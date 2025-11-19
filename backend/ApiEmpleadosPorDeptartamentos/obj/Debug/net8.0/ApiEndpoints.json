@@ -1,0 +1,111 @@
+[
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.DepartamentoController",
+    "Method": "ObtenerDepartamentos",
+    "RelativePath": "api/Departamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.EmpleadoController",
+    "Method": "ObtenerEmpleados",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.EmpleadoController",
+    "Method": "CrearEmpleado",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ApiEmpleadosPorDeptartamentos.Models.DTOs.CrearEmpleadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.EmpleadoController",
+    "Method": "ObtenerEmpleadoPorId",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.EmpleadoController",
+    "Method": "ActualizarEmpleado",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ApiEmpleadosPorDeptartamentos.Models.DTOs.ActualizarEmpleadoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.EmpleadoController",
+    "Method": "EliminarEmpleado",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.EmpleadoController",
+    "Method": "ObtenerEmpleadosPorDepartamento",
+    "RelativePath": "api/Empleado/ObtenerEmpleadosPorDepartamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEmpleadosPorDeptartamentos.Controllers.HelperController",
+    "Method": "ObtenerResumen",
+    "RelativePath": "api/Helper/resumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
